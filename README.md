@@ -16,9 +16,9 @@
 
 *Can see listings made by other user  
 
-*Can see listings med by your registred user  
+*Can see listings made by your registred user  
 
-*Can add new listing with registred user  
+*Can add new listing with your registred user  
 
 *Can update user avatar  
 
