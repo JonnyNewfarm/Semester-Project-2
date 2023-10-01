@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="/css/main.min.css">
+    
+    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/src/loggedInPages/newAvatar.js" defer></script>
+    <script src="/src/loggedInPages/myListings.js" defer></script>
+    <script src="/src/loggedInPages/logout.js" defer></script>
+    
+    
+</head>
+<body>
+
+    <!-- Navbar after login in -->
+    
+    <nav class="navbar navbar-expand-md">
+
+        <div class="container">
+            
+            <a href="loggedInindex.html" class="navbar-brand"><img src="/img/Group 9.svg" width="90" height="90" alt="logo"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="expands nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+       <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav" id="nav-ul">
+            <li class="nav-item">
+                <a href="loggedInindex.html" class="nav-link" id="nav-links" aria-current="page">Home</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+                <a href="profile.html" class="nav-link active" id="nav-links">profile</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="index.html" class="btn btn-primary mt-1" type="submit" id="logout-btn">Log out</a>
+            </li>
+           
+        </ul>
+    </div>
+                </div>
+ </nav>
+
+
+
+ <div class="container mt-5">
+<div class="row">
+        
+    <div class="col-lg-4 col-md-5 col-sm-12 ">
+        <div id="block" style="margin-left: 60px;"></div>
+<br>
+    
+</div>
+
+<!-- add avatar image from api -->
+
+<div class="col-lg-5">
+    <div id="profile-avatar-div" style="margin-left: 40px;">
+        
+    </div>
+
+    <!-- Form for creating new avtar from url -->
+  
+  <form id="avatar-form">
+    <div class="form ms-5" id="new-avatar-form">
+        <label>New avatar URL</label>
+        <input type="url" class="form-control" id="avatar-input" placeholder="URL" style="max-width: 350px;">
+        <button type="submit" class="btn btn-primary mb-2 mt-2" id="put-avatar">Add new avatar</button>
+    </div>
+</form>
+
+<!-- error if the new avatar url are not working -->
+<div class="div" id="avatar-error">
+<p class="text-primary">Url not working</p>
+<p class="text-primary">please try another</p>
+
+</div>
+      
+
+</div>
+    
+    
+    
+   
+    
+
+</div>
+</div>
+</div>
+
+<hr>
+
+<!-- displays cards of my listings from api -->
+<div class="row">
+    <div class="text-start"><h1 class="text-primary" style="font-size: xx-large;">My products</h1></div>
+    <div class="text-end" ><a class="btn btn-primary" style="margin-top: -65px; margin-right: 40px;" href="newListing.html">Add new product</a></div>
+</div>
+
+
+
+<div class="container ps-5 mt-5" id="my-listings-container">
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="my-listings-div"></div>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer class="footer mt-5 py-2">
+    <div class="row p-5 bg-danger border-top border-2">
+        <div class="col-lg-4 col-md-3 col-sm-12 text-center"><img src="../img/Group 9.svg" alt="logo" style="height: 140px;"></div>
+    
+        <div class="col-lg-4 col-md-3 col-sm-12 pt-3 text-center">
+        <ul class="list-group">
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">Contact</p></li>
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">About us</p></li>
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">Terms & conditions</p></li>
+         </ul>
+    </div>
+    
+    
+    <div class="col-lg-4 col-md-3 col-sm-12 pt-3 text-center">
+        <ul class="list-group">
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">Facebook</p></li>
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">Instagram</p></li>
+            <li class="list-group"><p class="text-primary" style="font-size: larger;">Twitter</p></li>
+         </ul>
+    </div>
+    
+    
+    </div>
+    
+    
+    </footer>
+
+
+
+ <script src="/src/loggedInPages/profile.js"></script>
+</body>
+</html>

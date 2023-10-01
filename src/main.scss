@@ -1,11 +1,263 @@
 
-$primary: rgb(22, 46, 22);
+$primary: #14447A;
+$secondary: #edfff0d6;
+// danger = color used in footer
+$danger: #f2ecff68;
 
 // Custom.scss
-// Option A: Include all of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Then add additional custom code here
+// additional custom code 
+
+body {
+    background-color: $secondary;
+    overflow-x: hidden;
+
+}
+
+//navbar
+
+#navbar-bg{
+background-color:$secondary;
+}
+
+
+#navbar{
+    justify-content:center
+    
+    
+
+}
+
+#nav-links{
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+
+#nav{
+    justify-content: flex-end;
+}
+
+
+
+//index page header
+
+
+#header-container{
+    padding-top: 100px;
+}
+
+
+#header-img {
+    max-width: 600px;
+    
+
+}
+
+
+#header-font{
+    margin-left: 20%;
+}
+
+
+// listing indexpage
+#new-items{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.text-primary{
+    font-weight: bolder;
+    font-size: larger;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+// register page
+
+#Registrer-title{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#Registrer-btn{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#card{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+
+
+///listing cards on indexpage
+#listingscontainer{
+    margin-top: 80px;
+}
+
+#listingsh1{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+
+#hr-id {
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+
+
+
+
+
+#p-indexCard{
+    font-size: smaller;
+}
+
+
+//details page
+#post-details{
+    justify-content: center;
+  
+    display: flex;
+    padding-top: 50px;
+}
+
+
+
+//newly reg page
+
+#newly-reg{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#text-newly-reg{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    
+    
+}
+
+#avatar-id{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+
+//my listing details
+
+#my-details-div{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+// logged in index details
+
+#logged-in-post-details{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    //index page mobile
+    #header-img{
+        max-width: 100%;
+        
+    }
+
+    #header-text{
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #header-font{
+        max-width: 70%;
+    }
+
+    #nav-ul{
+       
+       align-items: center;
+
+    }
+
+
+    #card{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+  }
+
+
+  // my products on profile page
+
+
+#cardListings{
+    margin-left: 50px;
+}
+
+
+
+#avatar-form{
+    margin-left: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+

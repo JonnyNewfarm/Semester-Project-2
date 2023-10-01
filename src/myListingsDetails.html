@@ -3,96 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Details</title>
     <link rel="stylesheet" href="/css/main.min.css">
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script defer src="./listings/indexListing.js"></script>
+    
+    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script src="/src/loggedInPages/logout.js" defer></script>
+    <script src="/src/loggedInPages/myListingDetails.js" defer></script>
+    
+    
 </head>
 <body>
-    <!-- navbar -->
+    
+    <!-- Navabr after login in -->
+    
     <nav class="navbar navbar-expand-md">
 
         <div class="container">
             
-            <a href="index.html" class="navbar-brand"><img src="../img/Group 9.svg" width="90" height="90" alt="logo"></a>
+            <a href="loggedInindex.html" class="navbar-brand"><img src="/img/Group 9.svg" width="90" height="90" alt="logo"></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="expands nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
        <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav" id="nav-ul">
             <li class="nav-item">
-                <a href="index.html" class="nav-link active" id="nav-links" aria-current="page">Home</a>
+                <a href="loggedInindex.html" class="nav-link" id="nav-links" aria-current="page">Home</a>
             </li>
             
-         
-             <li class="nav-item">
-                <a href="login.html" class="nav-link" id="nav-links">Log in</a>
+          
+            
+            <li class="nav-item">
+                <a href="profile.html" class="nav-link active" id="nav-links">profile</a>
             </li>
 
             <li class="nav-item">
-                <a href="registrer.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
+                <a href="index.html" class="btn btn-primary mt-1" type="submit" id="logout-btn">Log out</a>
             </li>
+           
         </ul>
     </div>
                 </div>
  </nav>
 
+<br><br><br><br>
 
- 
-<!-- Header -->
-<div class="container" id="header-container">
-    <div class="row" id="header-text" >
-        <div class=" col-lg-6 col-md-12 col-sm-12"><img src="../img/Group 11.svg" alt="start bidding today" id="header-font" width="350px"></div>
-        <div class="col-lg-6 col-md-12 col-sm-12" ><img src="../img/header-sp2.gif" alt="happy person" width="500px" id="header-img"></div>
-    </div>
-</div>
+<!-- Displays listingdetails from api -->
 
+<h1 class="text-center text-primary" style="font-size: xx-large;">Product details</h1>
 
-<div class="container text-center pt-5">
+ <div class="container" id="my-details-div">
     
-    <p class="text-primary pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ultrices venenatis. Maecenas id leo lorem. Sed vulputate diam a diam tristique, sit amet pretium risus tincidunt. Morbi eu iaculis dui. Mauris fermentum, justo vel pellentesque convallis, nibh quam mollis tortor, a fringilla justo tortor sit amet turpis. Phasellus enim nisi, pellentesque sit amet auctor in, pretium nec nisi.</p>
-</div>
 
 
 
+ </div>
 
 
 
-<hr id="hr-id">
+<!-- footer -->
 
-
-<!-- Content,displaying listing from api -->
-
-<h1 class="text-primary text-center pt-4" style="font-size: xx-large;">Listings</h1>
-    
-<div class="container ps-5 mt-5">
-        
-    
-   
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="listingsdiv">
-        
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Footer -->
-
-<footer class="footer mt-5 py-2">
+ <footer class="footer mt-5 py-2">
     <div class="row p-5 bg-danger border-top border-2">
         <div class="col-lg-4 col-md-3 col-sm-12 text-center"><img src="../img/Group 9.svg" alt="logo" style="height: 140px;"></div>
     
@@ -127,5 +100,6 @@
 
 
 
+ 
 </body>
 </html>

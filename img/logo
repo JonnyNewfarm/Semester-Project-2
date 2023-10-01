@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="801.979" height="757.991" viewBox="0 0 801.979 757.991">
+  <g id="Group_8" data-name="Group 8" transform="translate(-854.465 -274.816)">
+    <g id="Path_1" data-name="Path 1" transform="translate(870 322.983)" fill="rgba(20,68,122,0)">
+      <path d="M 352 681.5 C 170.3131103515625 681.5 22.5 533.6868896484375 22.5 352 C 22.5 170.3131103515625 170.3131103515625 22.5 352 22.5 C 533.6868896484375 22.5 681.5 170.3131103515625 681.5 352 C 681.5 533.6868896484375 533.6868896484375 681.5 352 681.5 Z" stroke="none"/>
+      <path d="M 352 45 C 182.7196044921875 45 45 182.7196044921875 45 352 C 45 521.2803955078125 182.7196044921875 659 352 659 C 521.2803955078125 659 659 521.2803955078125 659 352 C 659 182.7196044921875 521.2803955078125 45 352 45 M 352 0 C 546.404296875 0 704 157.595703125 704 352 C 704 546.404296875 546.404296875 704 352 704 C 157.595703125 704 0 546.404296875 0 352 C 0 157.595703125 157.595703125 0 352 0 Z" stroke="none" fill="#14447a"/>
+    </g>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="625.805" height="53" transform="translate(1036.409 614.537) rotate(-29)" fill="#14447a"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1002.122 552.682) rotate(-29)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="161" height="107" stroke="none"/>
+      <rect x="0.5" y="0.5" width="160" height="106" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(1045.001 630.038) rotate(-29)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="161" height="107" stroke="none"/>
+      <rect x="0.5" y="0.5" width="160" height="106" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(954.615 524.815) rotate(-29)" fill="#14447a" stroke="rgba(20,68,122,0)" stroke-width="1">
+      <rect width="222" height="38" rx="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="221" height="37" rx="18.5" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1080.079 746.643) rotate(-29)" fill="#14447a" stroke="rgba(20,68,122,0)" stroke-width="1">
+      <rect width="222" height="38" rx="19" stroke="none"/>
+      <rect x="0.5" y="0.5" width="221" height="37" rx="18.5" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(1579.28 294.208) rotate(-29)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="40" height="87" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="86" rx="19.5" fill="none"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-151 52.983)">
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(1261 751)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <rect width="223" height="39" rx="19.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="222" height="38" rx="19" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1219 800)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <rect width="305" height="42" rx="21" stroke="none"/>
+        <rect x="0.5" y="0.5" width="304" height="41" rx="20.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1023 615.983)" fill="#14447a" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="21.5" fill="none"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-105.13 -40.622) rotate(3)">
+      <text id="A" transform="matrix(0.695, -0.719, 0.719, 0.695, 1130.424, 426.396)" fill="#fff" stroke="#fff" stroke-width="5" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+      <text id="U" transform="translate(1161.286 399.284) rotate(-40)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">U</tspan></text>
+      <text id="C" transform="translate(1196.066 374.309) rotate(-29)" fill="#fff" stroke="#fff" stroke-width="5" font-size="45" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+      <text id="T" transform="translate(1237.76 352.611) rotate(-21)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">T</tspan></text>
+      <text id="I" transform="matrix(0.978, -0.208, 0.208, 0.978, 1274.948, 336.961)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I</tspan></text>
+      <text id="O" transform="translate(1295.717 332.21) rotate(-8)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">O</tspan></text>
+      <text id="N" transform="matrix(1, -0.017, 0.017, 1, 1339.97, 326.717)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">N</tspan></text>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(1891.852 -671.885) rotate(91)">
+      <text id="A-2" data-name="A" transform="matrix(0.695, -0.719, 0.719, 0.695, 1130.424, 426.396)" fill="#fff" stroke="#fff" stroke-width="5" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+      <text id="U-2" data-name="U" transform="translate(1161.286 399.284) rotate(-40)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">U</tspan></text>
+      <text id="C-2" data-name="C" transform="translate(1196.066 374.309) rotate(-29)" fill="#fff" stroke="#fff" stroke-width="5" font-size="45" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+      <text id="T-2" data-name="T" transform="translate(1237.76 352.611) rotate(-21)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">T</tspan></text>
+      <text id="I-2" data-name="I" transform="matrix(0.978, -0.208, 0.208, 0.978, 1274.948, 336.961)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I</tspan></text>
+      <text id="O-2" data-name="O" transform="translate(1295.717 332.21) rotate(-8)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">O</tspan></text>
+      <text id="N-2" data-name="N" transform="matrix(1, -0.017, 0.017, 1, 1339.97, 326.717)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">N</tspan></text>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(2667.687 1093.52) rotate(171)">
+      <text id="A-3" data-name="A" transform="matrix(0.695, -0.719, 0.719, 0.695, 1130.424, 426.396)" fill="#fff" stroke="#fff" stroke-width="5" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+      <text id="U-3" data-name="U" transform="translate(1161.286 399.284) rotate(-40)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">U</tspan></text>
+      <text id="C-3" data-name="C" transform="translate(1196.066 374.309) rotate(-29)" fill="#fff" stroke="#fff" stroke-width="5" font-size="45" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+      <text id="T-3" data-name="T" transform="translate(1237.76 352.611) rotate(-21)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">T</tspan></text>
+      <text id="I-3" data-name="I" transform="matrix(0.978, -0.208, 0.208, 0.978, 1274.948, 336.961)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I</tspan></text>
+      <text id="O-3" data-name="O" transform="translate(1295.717 332.21) rotate(-8)" fill="#fff" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">O</tspan></text>
+      <text id="N-3" data-name="N" transform="matrix(1, -0.017, 0.017, 1, 1339.97, 326.717)" fill="#fff" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">N</tspan></text>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(552.714 2019.307) rotate(-89)">
+      <text id="A-4" data-name="A" transform="matrix(0.695, -0.719, 0.719, 0.695, 1130.424, 426.396)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+      <text id="U-4" data-name="U" transform="translate(1161.286 399.284) rotate(-40)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">U</tspan></text>
+      <text id="C-4" data-name="C" transform="translate(1196.066 374.309) rotate(-29)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="45" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+      <text id="T-4" data-name="T" transform="translate(1237.76 352.611) rotate(-21)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">T</tspan></text>
+      <text id="I-4" data-name="I" transform="matrix(0.978, -0.208, 0.208, 0.978, 1274.948, 336.961)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I</tspan></text>
+      <text id="O-4" data-name="O" transform="translate(1295.717 332.21) rotate(-8)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="41" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">O</tspan></text>
+      <text id="N-4" data-name="N" transform="matrix(1, -0.017, 0.017, 1, 1339.97, 326.717)" fill="rgba(255,255,255,0.95)" stroke="#fff" stroke-width="5" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">N</tspan></text>
+    </g>
+  </g>
+</svg>

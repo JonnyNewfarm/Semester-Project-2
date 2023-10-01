@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/main.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script  defer src="./formValidation/loginFormValidation.js"></script>
+    <script type="module" defer src="./loginAndRegisterapi/login.js"></script>
+</head>
+<body>
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+
+        <div class="container">
+            
+            <a href="index.html" class="navbar-brand"><img src="../img/Group 9.svg" width="90" height="90" alt="Logo"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="expands nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+       <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav" id="nav-ul">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link" id="nav-links" aria-current="page">Home</a>
+            </li>
+            
+           
+            
+            <li class="nav-item">
+                <a href="login.html" class="nav-link active" id="nav-links">Log in</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="registrer.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Register</a>
+            </li>
+        </ul>
+    </div>
+                </div>
+ </nav>
+
+<!-- Login form -->
+ <div class="container pt-5" id="reg-container">
+    <h1 class="text-primary" id="Registrer-title">Log in</h1>
+    <div class="row">
+        <div class="col" id="reg-col">
+            <div class="card p-5" id="card">
+            
+        
+    <form novalidate id="login-formid">
+
+       
+
+        <div class="form-outline mb-4">
+          <input name="email" id="Reg-email" class="form-control form-control-lg" placeholder="Email" required pattern="^[\w\-.]+@(stud.)?noroff.no$">
+          
+        </div>
+
+        <div class="form-outline mb-4">
+          <input name="password" type="password" id="reg-password" class="form-control form-control-lg" placeholder="Password" required minlength="8">
+          
+        </div>
+
+        
+
+        <div class="d-flex justify-content-center">
+          <button type="submit"
+            class="btn btn-primary px-5" id="login-btn" style="font-size: larger;">Log in</button>
+        </div>
+
+        
+
+      </form>
+      <p class="text-center text-muted mt-5 mb-0">Need an account?<a href="registrer.html"
+        class="fw-bold text-body"><u>Register here</u></a></p>
+    </div>
+    </div>
+
+    </div>
+
+
+    <!-- Error if forminputs are not valid  -->
+
+<div class="text-center" id="login-error">
+<p class="text-primary">Ups! Somthing went wrong</p>
+<p class="text-primary">Must be an stud.noroff email </p>
+<p class="text-primary">Password must contains minimum 8 characters</p>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+<footer class="footer mt-5 py-2" >
+<div class="row p-5 bg-danger border-top border-2">
+    <div class="col-lg-4 col-md-3 col-sm-12 text-center"><img src="../img/Group 9.svg" alt="logo" style="height: 140px;"></div>
+
+    <div class="col-lg-4 col-md-3 col-sm-12 pt-3 text-center">
+    <ul class="list-group">
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">Contact</p></li>
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">About us</p></li>
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">Terms & conditions</p></li>
+     </ul>
+</div>
+
+
+<div class="col-lg-4 col-md-3 col-sm-12 pt-3 text-center">
+    <ul class="list-group">
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">Facebook</p></li>
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">Instagram</p></li>
+        <li class="list-group"><p class="text-primary" style="font-size: larger;">Twitter</p></li>
+     </ul>
+</div>
+
+
+</div>
+
+
+</footer>
+
+
+
+
+</body>
+</html>
