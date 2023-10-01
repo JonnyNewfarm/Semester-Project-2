@@ -1,5 +1,5 @@
 # Semester-Project-2
-In this repo i have created a auction website  
+In this repo i have created a auction website ( --- )
 
 Website is responsive in different screensizes
 # Resources I have used to create this website:
